@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: abc;
+    src: url('./BigShouldersDisplay-ExtraBold.ttf');
+    
+    
+}
+@font-face {
+    font-family: outfit;
+    src: url('./Outfit-Light.ttf');
+}
+.main_div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.empty_black{
+    background-color: black;
+    width: 450px ;
+    height: 799px ;
+    display: flex;
+    margin: 0px 0px 0px -150px;;
+    
+    
+}
+
+.txt_white{
+    color:white;
+    font-family: abc ;
+    font-weight: 20px;
+    line-height: 88px;
+    font-size: 96px;
+    margin: 100px 0px 50px 185px;
+    white-space: nowrap;
+    z-index: 2;
+    overflow: hidden;
+
+    
+}
+
+.txt_black {
+    color: black;
+    position: absolute;
+    font-family: abc ;
+    font-weight: 20px;
+    line-height: 88px;
+    font-size: 96px;
+    margin: 100px 0px 54px -266px;
+    white-space:nowrap;
+    width: 400px;
+    height: 300px;
+    
+    
+    
+}
+
+.main_image{
+    display: grid;
+    width: 540px;
+    height: 800px;
+    position: relative;
+}
+
+.text{
+    width: 350px;
+    height: 160px;
+    margin: 100px 0px 54px -20px;
+    z-index: 1;
+    color: #444444;
+    font-size: 22px;
+    font-family: outfit;
+}
+
+.button{
+    position: relative;
+    background-color: black;
+    margin: 250px 0px 50px -350px;
+    height: 72px;
+    width: 204px;
+    color: white;
+    font-family: abc;
+    text-align: center;
+}
+
+.button p{
+    margin: 26px 10px 10px 10px;
+}
+
+.arrow {
+    background-color: #D5966C;
+    width: 56px;
+    height: 72px;
+    margin: 250px 0px 50px 0px;
+}
+
+.arrow img {
+    margin: 10px 0px 0px 17px;
+}
+
+.combine{
+    width: 350px;
+    height: 280px;
+    margin: 20px 30px 20px 0px;
+    display: flex;
+}
+
+
+.gallery {
+    width: 635px;
+    height: 400px;
+    margin: 20px 20px 20px 0px;
+   
+    
+}
+
+.gallery2 {
+    width: 635px;
+    height: 720px;    
+}
+
+.gallery3 {
+    width: 445px;
+    height: 313px; 
+}
+
+.heading{
+    margin-left: 20px;
+}
